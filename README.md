@@ -47,7 +47,17 @@ It does the following:
 ```bash
 git clone https://github.com/your-username/theory-of-computation-project.git
 cd theory-of-computation-project
+```
 
-2. Build and run the project:
+2. Set Any Project To Be Startup Project
+  
+3. Build and run the project: 
+```bash
 dotnet build
 dotnet run
+```
+
+4.Enter a binary number when prompted and see the result.
+
+
+
