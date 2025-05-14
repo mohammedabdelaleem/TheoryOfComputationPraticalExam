@@ -1,0 +1,12 @@
+﻿| Test # | Binary Input | Decimal Equivalent | Expected Output | Reason                   |
+| ------ | ------------ | ------------------ | --------------- | ------------------------ |
+| TC01   | 0            | 0                  | ✅ Accepted      | 0 is divisible by 3      |
+| TC02   | 11           | 3                  | ✅ Accepted      | 3 ÷ 3 = 1                |
+| TC03   | 110          | 6                  | ✅ Accepted      | 6 ÷ 3 = 2                |
+| TC04   | 1001         | 9                  | ✅ Accepted      | 9 ÷ 3 = 3                |
+| TC05   | 1111         | 15                 | ✅ Accepted      | 15 ÷ 3 = 5               |
+| TC06   | 10           | 2                  | ❌ Rejected      | 2 is not divisible by 3  |
+| TC07   | 101          | 5                  | ❌ Rejected      | 5 is not divisible by 3  |
+| TC08   | 100          | 4                  | ❌ Rejected      | 4 is not divisible by 3  |
+| TC09   | 1101         | 13                 | ❌ Rejected      | 13 is not divisible by 3 |
+| TC10   | 1110         | 14                 | ❌ Rejected      | 14 is not divisible by 3 |
