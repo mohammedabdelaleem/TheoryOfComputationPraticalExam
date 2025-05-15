@@ -1,4 +1,5 @@
-﻿using DFA101;
+﻿using Automata_dll;
+
 
 DFA dfa = new DFA();
 

@@ -1,5 +1,5 @@
 ﻿
-using CFG_GNF;
+using Automata_dll;
 
 var cfg = new Grammar();
 cfg.AddProduction("S", new List<string> { "AB", "b" });

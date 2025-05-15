@@ -1,4 +1,4 @@
-﻿namespace DFA101;
+﻿namespace Automata_dll;
 
 public enum State
 {
